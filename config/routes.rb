@@ -3,4 +3,11 @@ Rails.application.routes.draw do
 
   get 'pictures' => 'pictures#index'
 
+  # ADD NEW PICTURE ROUTE !!!!! NEED POST AND A GET
+  post 'pictures' => 'pictures#create'
+  get 'pictures/new' => 'pictures#new'
+
+  # DYNAMIC LINKS
+  get 'pictures/:id'  => 'pictures#show'
+
 end

@@ -4,4 +4,22 @@
 # Examples:
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+#   Mayor.create(name: 'Emanuel', city: ci
+
+Picture.create(
+  title:  'The old church on the coast of White sea',
+  artist: 'Sergey Er`shov',
+  url:    'http://bitmakerlabs.s3.amazonaws.com/photogur/house.jpg'
+)
+
+Picture.create(
+  title:  'Sea Power',
+  artist: 'Stephen Scullion',
+  url:    'http://bitmakerlabs.s3.amazonaws.com/photogur/wave.jpg'
+)
+
+Picture.create(
+  title:  'Into the Poppies',
+  artist: 'John Wilhelm',
+  url:    'http://bitmakerlabs.s3.amazonaws.com/photogur/girl.jpg'
+)
